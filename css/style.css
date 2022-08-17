@@ -1,0 +1,55 @@
+body{
+    color: white;
+    font-family: Helvetica, 'Arial Narrow Bold', sans-serif; 
+
+}
+.container {
+    justify-content: space-between;
+    padding-bottom: 0%;
+  }
+  
+  .tile {
+    width: 33%;
+    margin-bottom: 0%;
+    margin-right:0%;
+    padding: 4%;    
+    flex-wrap: wrap;
+    
+
+  }
+  
+  #home{
+    background-color: rgb(253, 215, 0);
+  }
+  #about{
+    background-color: orange;
+  }
+  #portfolio{
+    background-color: red;
+  }
+  #clients{
+    background-color: green;
+  }
+  #sup{
+    background-color: cornflowerblue;
+  }
+  #contact{
+    background-color: purple;
+  }
+  h1{
+    text-align:center;
+  }
+  #col1{
+flex-flow: column; 
+flex:1;
+ }
+  #col2{
+    flex-flow: column;  
+    flex:1;}
+
+  #col3{
+    flex-flow: column; 
+    flex:1; }
+    #main{
+        flex-flow: row;   
+    }
