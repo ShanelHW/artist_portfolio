@@ -1,73 +1,68 @@
 * {
-    margin: 0;
-    font-size: 16px;
-
+  margin: 0;
+  font-size: 14px;
 }
-    body{
-    color: white;
-    font-family: Helvetica, 'Arial Narrow Bold', sans-serif; 
-
+body {
+  color: white;
+  font-family: Helvetica, "Arial Narrow Bold", sans-serif;
 }
- 
-  
-  .section1{
-    background-color: rgb(180, 180, 180);
-  }
-  .section2{
-    background-color: rgb(180, 180, 180);
-  }
- /* colors for all div  */
+
+.section1 {
+  background-color: rgb(180, 180, 180);
+}
+.section2 {
+  background-color: rgb(180, 180, 180);
+}
+/* colors for all div  */
 
 .home {
-    background-color: #f1c40f;
-    /* background-color: rgba(0,255,0,0.9); */
+  background-color: #f1c40f;
+  /* background-color: rgba(0,255,0,0.9); */
 }
-.about{
-    background-color: #f39c12;
+.about {
+  background-color: #f39c12;
 }
 .portfolio {
-   background-color:  #e74c3c;
+  background-color: #e74c3c;
 }
-.clients{
-    background-color: #2ecc71;
+.clients {
+  background-color: #2ecc71;
 }
-.sup{
-    background-color: #3498db;
+.sup {
+  background-color: #3498db;
 }
 .contact {
-    background-color: #9b59b6;
+  background-color: #9b59b6;
 }
 
-  div {
-    display: inline-block;
-    height: 200px;
-    width: 33.4%;
-    margin: -2px;
-    position: relative;
+div {
+  display: inline-block;
+  height: 200px;
+  width: 33.4%;
+  margin: -2px;
+  position: relative;
 }
 
 div > p {
-    position: absolute;
-    bottom: 20px;
-    margin-left: 5%;
+  position: absolute;
+  bottom: 20px;
+  margin-left: 5%;
 }
 
-div > h1{
-    text-align:center;
-    text-transform:uppercase;
-
-  }
-  div > h3{
-    
-    font-variant: small-caps;
-    word-spacing: 50em;
-    position: absolute;
-    bottom: 40px;
-    left: 20px;
-  }
-  h3:after {
-    content: " ";
-    display: block;
-    border-bottom: 2px solid #ffffff;
+div > h1 {
+  text-transform: uppercase;
+  position: absolute;
+  left: 38%;
+  top: 20px;
 }
-
+div > h3 {
+  font-variant: small-caps;
+  position: absolute;
+  bottom: 40px;
+  left: 20px;
+}
+h3:after {
+  content: " ";
+  display: block;
+  border-bottom: 2px solid #ffffff;
+}
