@@ -1,55 +1,59 @@
-body{
+* {
+    margin: 0px;
+}
+    body{
     color: white;
     font-family: Helvetica, 'Arial Narrow Bold', sans-serif; 
 
 }
-.container {
-    justify-content: space-between;
-    padding-bottom: 0%;
+ 
+  div {
+    display: inline-block;
+    height: 200px;   
+    width: 33.4%;
+    margin: -2.33px;
+    position: relative;  
   }
   
-  .tile {
-    width: 33%;
-    margin-bottom: 0%;
-    margin-right:0%;
-    padding: 4%;    
-    flex-wrap: wrap;
-    
-
+  .section1{
+    background-color: rgb(180, 180, 180);
   }
-  
-  #home{
-    background-color: rgb(253, 215, 0);
+  .section2{
+    background-color: rgb(180, 180, 180);
   }
-  #about{
-    background-color: orange;
+  .home{
+    background-color:#f1c40f;
   }
-  #portfolio{
-    background-color: red;
+  .about{
+    background-color: #ffa500;
   }
-  #clients{
-    background-color: green;
+  .portfolio{
+    background-color: #ff0000;
   }
-  #sup{
-    background-color: cornflowerblue;
+  .clients{
+    background-color: #008000;
   }
-  #contact{
-    background-color: purple;
+  .sup{
+    background-color: #3498db;
+  }
+  .contact{
+    background-color: #800080;
   }
   h1{
     text-align:center;
+    text-transform:uppercase;
   }
-  #col1{
-flex-flow: column; 
-flex:1;
- }
-  #col2{
-    flex-flow: column;  
-    flex:1;}
+  h3{
+    
+    font-variant: small-caps;
+    word-spacing: 50em;
+    
+  }
 
-  #col3{
-    flex-flow: column; 
-    flex:1; }
-    #main{
-        flex-flow: row;   
-    }
+  div > p {
+font-style: normal ;
+font-variant:inherit;
+position:absolute;
+bottom: 20px;
+  }
+
